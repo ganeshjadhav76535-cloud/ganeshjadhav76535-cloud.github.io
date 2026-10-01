@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ganesh Jadhav | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#0b1120;
+    color:#ffffff;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px 20px;
+    background:linear-gradient(135deg,#0b1120,#111827,#172554);
+}
+
+.hero{
+    max-width:850px;
+}
+
+.hero h1{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.hero h1 span{
+    color:#38bdf8;
+}
+
+.hero h2{
+    font-size:24px;
+    color:#cbd5e1;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#94a3b8;
+    font-size:17px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 24px;
+    margin:7px;
+    border-radius:25px;
+    text-decoration:none;
+    color:white;
+    background:#0284c7;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#38bdf8;
+    color:#0b1120;
+}
+
+section{
+    padding:70px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+section h2{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:35px;
+    color:#38bdf8;
+}
+
+.about{
+    text-align:center;
+    color:#cbd5e1;
+    max-width:750px;
+    margin:auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111827;
+    padding:25px;
+    border-radius:15px;
+    border:1px solid #1e3a5f;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#38bdf8;
+}
+
+.card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#cbd5e1;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+}
+
+.skill{
+    background:#111827;
+    border:1px solid #2563eb;
+    padding:10px 18px;
+    border-radius:20px;
+    color:#dbeafe;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    background:#050914;
+    color:#94a3b8;
+}
+
+@media(max-width:600px){
+    .hero h1{
+        font-size:36px;
+    }
+
+    .hero h2{
+        font-size:20px;
+    }
+
+    section{
+        padding:50px 18px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="hero">
+
+<h1>Hi, I'm <span>Ganesh Jadhav</span> 👋</h1>
+
+<h2>DSE EXTC Engineering Student</h2>
+
+<p>
+Electronics & Telecommunication Engineering student interested in
+electronics, Arduino, embedded systems and innovative projects.
+</p>
+
+<a href="#about" class="btn">About Me</a>
+
+<a href="https://github.com/ganeshjadhav76535-cloud"
+class="btn" target="_blank">
+GitHub
+</a>
+
+</div>
+</header>
+
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<div class="about">
+
+<p>
+I am Ganesh Jadhav, a Direct Second Year Engineering student in
+Electronics & Telecommunication Engineering.
+
+I have completed my Diploma in Electronics & Telecommunication
+Engineering and I am interested in practical electronics,
+Arduino-based projects, embedded systems and technology.
+
+I enjoy learning new technologies and building simple
+real-world projects.
+</p>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Education</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Engineering</h3>
+
+<p>
+Direct Second Year (DSE)<br>
+Electronics & Telecommunication Engineering<br>
+VIT Mumbai
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Diploma</h3>
+
+<p>
+Diploma in Electronics & Telecommunication Engineering<br>
+Government Polytechnic Dharashiv
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Arduino</div>
+<div class="skill">Electronics</div>
+<div class="skill">Embedded Systems</div>
+<div class="skill">Circuit Design</div>
+<div class="skill">C / C++</div>
+<div class="skill">Microcontrollers</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>☀️ Solar Tracking UPS System</h3>
+
+<p>
+Arduino-based solar tracking system using LDR sensors,
+motor control and an automatic backup UPS system.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>🎮 Arduino OLED Flappy Bird</h3>
+
+<p>
+A mini Arduino game project using an OLED display,
+push button and Arduino UNO.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Certification</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>Bajaj Manufacturing Systems</h3>
+
+<p>
+Certificate of Appreciation<br>
+Bajaj Manufacturing Systems - Certification Program
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Connect With Me</h2>
+
+<div class="contact">
+
+<p style="color:#cbd5e1;">
+Let's connect and explore opportunities in electronics,
+engineering and technology.
+</p>
+
+<br>
+
+<a href="https://github.com/ganeshjadhav76535-cloud"
+class="btn" target="_blank">
+GitHub
+</a>
+
+<a href="https://www.linkedin.com/"
+class="btn" target="_blank">
+LinkedIn
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Ganesh Jadhav | DSE EXTC Engineering Student
+
+</footer>
+
+</body>
+</html>
